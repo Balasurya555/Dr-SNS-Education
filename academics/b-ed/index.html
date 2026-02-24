@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="../../static/images/Favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Ed. Programme | Dr. SNS College of Education - Design Thinking College Coimbatore</title>
+    <meta name="description"
+        content="Dr. SNS College of Education - Offering B.Ed. Programme with specialized Pedagogy subjects integrated with Design Thinking.">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(-45deg, #009846, #007b38, #00bf58, #00d261);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #009846 0%, #007b38 50%, #00bf58 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+    <script src="../../static/js/components.js" defer></script>
+</head>
+
+<body class="antialiased bg-gray-50">
+
+    <app-header></app-header>
+
+    <!-- Hero Section -->
+    <section class="relative h-[40vh] min-h-[400px] flex items-center justify-center text-white overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="/static/images/secondary.png" alt="Teacher Education" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <nav class="mb-6">
+                <div class="flex items-center justify-center space-x-2 text-sm text-white/80">
+                    <a href="/" class="hover:text-white transition">Home</a>
+                    <i class="fas fa-chevron-right text-xs"></i>
+                    <span class="text-white">B.Ed. Programme</span>
+                </div>
+            </nav>
+            <h1 class="text-4xl lg:text-6xl font-extrabold mb-6 leading-tight">B.Ed. Programme</h1>
+            <p class="text-xl lg:text-2xl text-white/90 max-w-4xl mx-auto leading-relaxed">
+                Empowering future educators with Design Thinking and specialized pedagogy subjects
+            </p>
+            <div class="mt-8 flex justify-center">
+                <div class="w-24 h-1 bg-[#009846] rounded-full"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <span class="text-green-600 font-bold tracking-wider uppercase text-sm mb-2 block">Teacher
+                        Education</span>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">Expertise in Pedagogy</h2>
+                    <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                        Our B.Ed. programme is designed to create innovative educators who can redefine common minds. We
+                        focus on a wide range of pedagogy subjects, integrating Design Thinking into the
+                        teaching-learning process to prepare teachers for the challenges of the 21st-century classroom.
+                    </p>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        Students choose their specialized pedagogy subjects to master the art and science of teaching in
+                        their respective fields.
+                    </p>
+                </div>
+                <div class="relative">
+                    <img src="/static/images/SNS Academy Web/The.png" alt="B.Ed. Learning"
+                        class="relative rounded-2xl shadow-2xl w-full object-cover h-[400px]">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pedagogy Subjects -->
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">Pedagogy Subjects Offered</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    We offer a comprehensive range of pedagogy specializations for our B.Ed. students.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Pedagogy of Tamil -->
+                <div
+                    class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition duration-300 border border-gray-100 group">
+                    <div
+                        class="w-16 h-16 bg-orange-50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-language text-3xl text-orange-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Pedagogy of Tamil</h3>
+                </div>
+                <!-- Pedagogy of English -->
+                <div
+                    class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition duration-300 border border-gray-100 group">
+                    <div
+                        class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-book text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Pedagogy of English</h3>
+                </div>
+                <!-- Pedagogy of Mathematics -->
+                <div
+                    class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition duration-300 border border-gray-100 group">
+                    <div
+                        class="w-16 h-16 bg-red-50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-calculator text-3xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Pedagogy of Mathematics</h3>
+                </div>
+                <!-- Pedagogy of Physical Science -->
+                <div
+                    class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition duration-300 border border-gray-100 group">
+                    <div
+                        class="w-16 h-16 bg-indigo-50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-flask text-3xl text-indigo-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Pedagogy of Physical Science</h3>
+                </div>
+                <!-- Pedagogy of Biological Science -->
+                <div
+                    class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition duration-300 border border-gray-100 group">
+                    <div
+                        class="w-16 h-16 bg-green-50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-leaf text-3xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Pedagogy of Biological Science</h3>
+                </div>
+                <!-- Pedagogy of History -->
+                <div
+                    class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition duration-300 border border-gray-100 group">
+                    <div
+                        class="w-16 h-16 bg-amber-50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-landmark text-3xl text-amber-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Pedagogy of History</h3>
+                </div>
+                <!-- Pedagogy of Computer Science -->
+                <div
+                    class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition duration-300 border border-gray-100 group">
+                    <div
+                        class="w-16 h-16 bg-purple-50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-laptop-code text-3xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Pedagogy of Computer Science</h3>
+                </div>
+                <!-- Pedagogy of Economics -->
+                <div
+                    class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition duration-300 border border-gray-100 group">
+                    <div
+                        class="w-16 h-16 bg-emerald-50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-chart-line text-3xl text-emerald-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Pedagogy of Economics</h3>
+                </div>
+                <!-- Pedagogy of Commerce -->
+                <div
+                    class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition duration-300 border border-gray-100 group">
+                    <div
+                        class="w-16 h-16 bg-cyan-50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-briefcase text-3xl text-cyan-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Pedagogy of Commerce</h3>
+                </div>
+                <!-- Pedagogy of Social Science -->
+                <div
+                    class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition duration-300 border border-gray-100 group">
+                    <div
+                        class="w-16 h-16 bg-rose-50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-users text-3xl text-rose-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-1">Pedagogy of Social Science</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-24 bg-green-900 text-white relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <h2 class="text-4xl font-bold mb-6">Become a Design Thinking Educator</h2>
+            <p class="text-xl mb-10 text-green-100 font-light">
+                Secure your seat in our B.Ed. programme and shape the next generation.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/admissions"
+                    class="bg-white text-green-900 hover:bg-gray-100 px-10 py-4 rounded-full font-bold text-lg transition shadow-lg shrink-0">
+                    Apply Now
+                </a>
+                <a href="/contact"
+                    class="bg-green-800 border border-green-700 hover:bg-green-700 px-10 py-4 rounded-full font-bold text-lg transition shrink-0">
+                    Contact Admissions
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <app-footer></app-footer>
+</body>
+
+</html>
