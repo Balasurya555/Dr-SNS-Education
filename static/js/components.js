@@ -50,16 +50,16 @@ headerTemplate.innerHTML = `
                         </button>
                         <div
                             class="absolute hidden group-hover:block bg-white shadow-xl rounded-lg py-2 w-64 mt-0 z-50">
-                            <a href="/academics/b-ed" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Tamil</a>
-                            <a href="/academics/b-ed" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of English</a>
-                            <a href="/academics/b-ed" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Mathematics</a>
-                            <a href="/academics/b-ed" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Physical Science</a>
-                            <a href="/academics/b-ed" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Biological Science</a>
-                            <a href="/academics/b-ed" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of History</a>
-                            <a href="/academics/b-ed" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Computer Science</a>
-                            <a href="/academics/b-ed" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Economics</a>
-                            <a href="/academics/b-ed" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Commerce</a>
-                            <a href="/academics/b-ed" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Social Science</a>
+                            <a href="/academics/b-ed/tamil.html" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Tamil</a>
+                            <a href="/academics/b-ed/english.html" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of English</a>
+                            <a href="/academics/b-ed/mathematics.html" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Mathematics</a>
+                            <a href="/academics/b-ed/physical-science.html" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Physical Science</a>
+                            <a href="/academics/b-ed/biological-science.html" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Biological Science</a>
+                            <a href="/academics/b-ed/history.html" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of History</a>
+                            <a href="/academics/b-ed/computer-science.html" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Computer Science</a>
+                            <a href="/academics/b-ed/economics.html" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Economics</a>
+                            <a href="/academics/b-ed/commerce.html" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Commerce</a>
+                            <a href="/academics/b-ed/social-science.html" class="block px-4 py-2 hover:bg-green-50 text-gray-700">Pedagogy of Social Science</a>
                         </div>
                     </div>
 
@@ -134,16 +134,16 @@ headerTemplate.innerHTML = `
                         Programs <i class="fas fa-chevron-down"></i>
                     </button>
                     <div id="mobile-academics" class="hidden pl-4 space-y-2 mt-2">
-                        <a href="/academics/b-ed" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Tamil</a>
-                        <a href="/academics/b-ed" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of English</a>
-                        <a href="/academics/b-ed" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Mathematics</a>
-                        <a href="/academics/b-ed" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Physical Science</a>
-                        <a href="/academics/b-ed" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Biological Science</a>
-                        <a href="/academics/b-ed" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of History</a>
-                        <a href="/academics/b-ed" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Computer Science</a>
-                        <a href="/academics/b-ed" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Economics</a>
-                        <a href="/academics/b-ed" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Commerce</a>
-                        <a href="/academics/b-ed" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Social Science</a>
+                        <a href="/academics/b-ed/tamil.html" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Tamil</a>
+                        <a href="/academics/b-ed/english.html" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of English</a>
+                        <a href="/academics/b-ed/mathematics.html" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Mathematics</a>
+                        <a href="/academics/b-ed/physical-science.html" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Physical Science</a>
+                        <a href="/academics/b-ed/biological-science.html" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Biological Science</a>
+                        <a href="/academics/b-ed/history.html" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of History</a>
+                        <a href="/academics/b-ed/computer-science.html" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Computer Science</a>
+                        <a href="/academics/b-ed/economics.html" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Economics</a>
+                        <a href="/academics/b-ed/commerce.html" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Commerce</a>
+                        <a href="/academics/b-ed/social-science.html" class="block text-gray-600 hover:text-[#009846] py-1">Pedagogy of Social Science</a>
                     </div>
                 </div>
 
@@ -218,8 +218,8 @@ footerTemplate.innerHTML = `
                         </div>
                     </div>
                     <p class="text-sm leading-relaxed">
-                        CBSE Affiliation: 1930610<br>
-                        Established: 2014<br>
+                        Affiliated to TNTEU<br>
+                        Established: 2007<br>
                         Coimbatore, Tamil Nadu
                     </p>
                 </div>
@@ -245,16 +245,16 @@ footerTemplate.innerHTML = `
                 <div>
                     <h4 class="text-white font-bold mb-4">Programs</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="/academics/b-ed" class="hover:text-white transition">Pedagogy of Tamil</a></li>
-                        <li><a href="/academics/b-ed" class="hover:text-white transition">Pedagogy of English</a></li>
-                        <li><a href="/academics/b-ed" class="hover:text-white transition">Pedagogy of Mathematics</a></li>
-                        <li><a href="/academics/b-ed" class="hover:text-white transition">Pedagogy of Physical Science</a></li>
-                        <li><a href="/academics/b-ed" class="hover:text-white transition">Pedagogy of Biological Science</a></li>
-                        <li><a href="/academics/b-ed" class="hover:text-white transition">Pedagogy of History</a></li>
-                        <li><a href="/academics/b-ed" class="hover:text-white transition">Pedagogy of Computer Science</a></li>
-                        <li><a href="/academics/b-ed" class="hover:text-white transition">Pedagogy of Economics</a></li>
-                        <li><a href="/academics/b-ed" class="hover:text-white transition">Pedagogy of Commerce</a></li>
-                        <li><a href="/academics/b-ed" class="hover:text-white transition">Pedagogy of Social Science</a></li>
+                        <li><a href="/academics/b-ed/tamil.html" class="hover:text-white transition">Pedagogy of Tamil</a></li>
+                        <li><a href="/academics/b-ed/english.html" class="hover:text-white transition">Pedagogy of English</a></li>
+                        <li><a href="/academics/b-ed/mathematics.html" class="hover:text-white transition">Pedagogy of Mathematics</a></li>
+                        <li><a href="/academics/b-ed/physical-science.html" class="hover:text-white transition">Pedagogy of Physical Science</a></li>
+                        <li><a href="/academics/b-ed/biological-science.html" class="hover:text-white transition">Pedagogy of Biological Science</a></li>
+                        <li><a href="/academics/b-ed/history.html" class="hover:text-white transition">Pedagogy of History</a></li>
+                        <li><a href="/academics/b-ed/computer-science.html" class="hover:text-white transition">Pedagogy of Computer Science</a></li>
+                        <li><a href="/academics/b-ed/economics.html" class="hover:text-white transition">Pedagogy of Economics</a></li>
+                        <li><a href="/academics/b-ed/commerce.html" class="hover:text-white transition">Pedagogy of Commerce</a></li>
+                        <li><a href="/academics/b-ed/social-science.html" class="hover:text-white transition">Pedagogy of Social Science</a></li>
                         <li><a href="/mandatory-disclosure" class="hover:text-white transition">Mandatory Disclosure</a></li>
                     </ul>
                 </div>
@@ -265,8 +265,8 @@ footerTemplate.innerHTML = `
                         <li><i class="fas fa-map-marker-alt mr-2"></i>Dr. SNS College of Education,<br />Chinavedampatti (Post),<br />Thudiyalur - Saravanampatti Road,<br />Coimbatore - 641049</li>
                         <li><a href="tel:+917530093729" class="hover:text-white transition"><i
                                     class="fas fa-phone mr-2"></i>Mobile: 7530093729, 7530093728</a></li>
-                        <li><a href="mailto:drsnsce.cbe@gmail.com" class="hover:text-white transition"><i
-                                    class="fas fa-envelope mr-2"></i>drsnsce.cbe@gmail.com</a></li>
+                        <li><a href="mailto:office@drsnsce.edu.in" class="hover:text-white transition"><i
+                                    class="fas fa-envelope mr-2"></i>office@drsnsce.edu.in</a></li>
                     </ul>
                     <div class="flex space-x-3">
                         <a href="https://www.facebook.com/snsinstitutions" target="_blank"

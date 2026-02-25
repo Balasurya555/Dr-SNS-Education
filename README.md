@@ -1,47 +1,41 @@
-# SNS Academy - Modern Website Redesign
+# Dr. SNS College of Education - Website Expansion
 
 ## Project Overview
-- **Name**: SNS Academy Website
-- **Goal**: Complete redesign of 12-year-old CBSE school website with modern, parent-friendly design
-- **Status**: ✅ **COMPREHENSIVE MULTI-PAGE SITE COMPLETE**
-- **Tech Stack**: Hono + TypeScript + Cloudflare Pages + TailwindCSS + Font Awesome
-- **Established**: 2014 | **CBSE Affiliation**: 1930610
+- **Name**: Dr. SNS College of Education Website
+- **Goal**: Expand the B.Ed. pedagogy section with specialized, content-rich pages and maintain high standards of Design Thinking integration.
+- **Status**: ✅ **SPECIALIZED PEDAGOGY PAGES COMPLETE**
+- **Tech Stack**: Static HTML + TailwindCSS + Font Awesome + JavaScript
+- **Accreditation**: NAAC 'A' Grade Institution
 
-## 🌐 Live URLs
-- **Development**: https://3000-iuq2q2xgmw9hju98ek9x6-d0b9e1e2.sandbox.novita.ai
-- **Production**: *Ready for deployment*
-- **GitHub**: *Ready to push*
+## 🌐 Project Context
+This project involved a transition from a generic "SNS Academy" template to a fully specialized higher education platform for Dr. SNS College of Education.
 
 ## ✅ Completed Features
 
-### **Pages (10 comprehensive pages)**
-1. **Home** (`/`) - Modern landing page with hero, trust signals, why choose us
-2. **Pre-Primary** (`/academics/pre-primary`) - Nursery to UKG programs
-3. **Primary** (`/academics/primary`) - Grade I-VI curriculum
-4. **Secondary** (`/academics/secondary`) - Grade VII-X programs
-5. **Senior Secondary** (`/academics/senior-secondary`) - Grade XI-XII with streams
-6. **Facilities** (`/facilities`) - SPINE Center & Academic Infrastructure
-7. **Innovation Hub** (`/innovation`) - SNS iHub, RADICAL Technologies
-8. **Gallery** (`/gallery`) - Campus infrastructure, labs, facilities
-9. **Sports & Clubs** (`/sports-clubs`) - 25+ activities, all sports facilities
-10. **About Us** (`/about`) - Mission, vision, 3P Culture, 5 Pillars
-11. **Contact** (`/contact`) - Forms, maps, contact details
-12. **Admissions** (`/admissions`) - Application process, fees structure
-13. **Brochure** (`/brochure`) - Digital brochure download page
+### **Key Pages (Expanded Pedagogy)**
+1. **Home** - Rebranded for Dr. SNS College of Education.
+2. **Pedagogy of Tamil** - Specialized course details.
+3. **Pedagogy of English** - ELT methodology and Language Lab focus.
+4. **Pedagogy of Mathematics** - Computational ICT and logical reasoning.
+5. **Pedagogy of Physical Science** - Experimental excellence and Virtual Labs.
+6. **Pedagogy of Biological Science** - Environmental ethics and digital taxonomy.
+7. **Pedagogy of History** - Critical inquiry and digital archives.
+8. **Pedagogy of Computer Science** - Coding, digital literacy, and cloud computing.
+9. **Pedagogy of Economics** - Market analysis and financial modeling.
+10. **Pedagogy of Commerce** - Business simulations and accountancy.
+11. **Pedagogy of Social Science** - Society analysis and GIS mapping.
+12. **Facilities** - Academic infrastructure with Resource Centres.
+13. **About Us** - Instituional Vision, Mission, and Leadership.
+14. **Admissions** - Eligibility and Application process.
+15. **Contact** - Official location and contact information.
 
 ### **Content Integration**
-✅ All original site content integrated:
-- EZ Vidya Chrysalis curriculum (Pre-Primary)
-- CBSE curriculum details (all levels)
-- SPINE Activity Center facilities (Swimming, Cricket, Gym, Music, Dance, Art, Theater, Gaming, Restaurant, Lounge)
-- SNS iHub labs (I-TECH, BOT Lab, Piston Factory, Product Design, Manufacturing)
-- RADICAL Technologies (Robotics, AR/VR, Data Science, IoT, Cybersecurity, Communication, Additive Manufacturing, Low Code)
-- 3P Culture (Purpose, Process, People)
-- 5 Pillars (Learning, Upskilling & Communication, Innovation, Networking, Character Building)
-- SNS Motto: Sincerity, Nobility, Service
-- SNS Tagline: Redesigning Common Minds
-- Contact: +91 422 439 0470, info@snsacademy.org
-- Address: Vellakinar, Coimbatore, Tamil Nadu
+✅ All pedagogy subject content integrated:
+- Subject-specific methodologies (ELT, ICT, Inquiry-based).
+- Career opportunities tailored to each pedagogy.
+- Design Thinking integration across all course descriptions.
+- Contact: +91 75300 93729, office@drsnsce.edu.in
+- Address: Thudiyalur - Saravanampatti Road, Coimbatore, Tamil Nadu
 
 ### **Sports & Clubs (Complete)**
 ✅ Major Sports Facilities:
@@ -371,9 +365,9 @@ git push -f origin main
 
 ---
 
-**Last Updated**: January 13, 2026
-**Status**: ✅ Ready for Production Deployment
-**Version**: 2.0 (Complete Redesign)
+**Last Updated**: February 25, 2026
+**Status**: ✅ Pedagogy Expansion Complete
+**Version**: 3.0 (Higher Ed Expansion)
 **Build**: Hono + TypeScript + Cloudflare Pages
 
 ## 🔧 Technical Stack
